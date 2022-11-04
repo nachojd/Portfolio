@@ -1,0 +1,13 @@
+.habilidades__titulo {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 28px;
+    color: #1E0E62;
+}
+
+.habilidades__texto {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(21, 20, 57, 0.4);
+}

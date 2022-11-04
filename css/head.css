@@ -1,0 +1,34 @@
+.head {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+
+.head__logo {
+    color: #1E0E62;
+    font-size: 24px;
+}
+
+.head__boton {
+
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    height: 40px;
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    border-radius: 100px;
+
+}
+
+.head__boton-texto {
+font-weight: 700;
+text-decoration: none;
+color: #1E0E62;
+position: absolute;
+margin-top: 10px;
+margin-left: 30px;
+line-height: 22px;
+}

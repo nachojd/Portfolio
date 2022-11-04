@@ -1,0 +1,25 @@
+main {
+    background-color: #F1F1F1;
+}
+
+.sobre__titulo {
+    font-size: 43px;
+    font-weight: 700;
+    color: #1E0E62;
+    padding: 70px 60px 0 0;
+}
+
+.sobre__texto {
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    margin-right: 125px;
+    margin-bottom: 75px;
+}
+
+.sobre__foto {
+    width: 359px;
+    margin-bottom: 120px;
+    line-height: 15px;
+}

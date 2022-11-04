@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="stylesheet" href="./css/head.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/habilidades.css">
     <title>Reto Hola Juniors</title>
 </head>
 <body>
-    <header class="header container">
-        <h1 class="logo">HolaJuniors.com</h1>
-        <a class="email" href="#"><button>Email</button></a>
+    <header class="head container">
+        <h1 class="head__logo">HolaJuniors.com</h1>
+        <div class="head__boton">
+            <a class="head__boton-texto" href="#">Email</a>
+        </div>
     </header>
     <main>
-        <div class="sobre__container">
+        <div class="sobre container">
             <div class="sobre__items">
                 <h2 class="sobre__titulo">Hola, soy Nacho.<br>FullStack Developer</h2>
                 <p class="sobre__texto">Actualmente me encuentro cursando el segundo año de una Tecnicatura Superior en Desarrollo de Software y tambien soy participante del programa Oracle Next Education orientado a programacion FullStack</p>
             </div>
-            <img class="sobre__foto" src="cuadrao.png" alt="yo">
+            <img class="sobre__foto" src="./img/yo.jpg" alt="yo">
             
         </div>
-        
+    
+
         <section class="habilidades container">
-            <h2>Mis habilidades</h2>
-            <p>Estas son mis habilidades</p>
+            <p class="habilidades__titulo">Mis habilidades</p>
+            <p class="habilidades__texto">Poseo conocimientos en HTML, CSS, JavaScript, Python con framework Flask,
+                creacion y manipulación de bases de datos con MySQL y SQLite. </p>
             <div>
-                HTML/CSS
+                HTML, CSS y JavaScript
             </div>
             <div>
-                PYTHON/FLASK
+                Python con framework Flask
             </div>
             <div>
-                MYSQL/SQLITE
+                Bases de datos relacionales con MySQL y SQLite 
             </div>
         </section>
         <section class="experiencia container">
