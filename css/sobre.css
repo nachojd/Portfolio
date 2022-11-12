@@ -1,4 +1,4 @@
-main {
+.sobre {
     background-color: #F1F1F1;
 }
 
@@ -20,6 +20,6 @@ main {
 
 .sobre__foto {
     width: 359px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     line-height: 15px;
 }

@@ -1,0 +1,15 @@
+.experiencia  {
+    background-color: #FFFFFF;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.experiencia__titulo {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 28px;
+    text-align: center;
+    color: #1E0E62;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
