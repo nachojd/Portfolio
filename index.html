@@ -4,69 +4,204 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/bases.css">
-    <link rel="stylesheet" href="./css/head.css">
-    <link rel="stylesheet" href="./css/sobre.css">
-    <link rel="stylesheet" href="./css/habilidades.css">
-    <link rel="stylesheet" href="./css/experiencia.css">
-    <title>Reto Hola Juniors</title>
+    <title>{ ID }</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-    
-    <header class="head container">
-        <h1 class="head__logo">HolaJuniors.com</h1>
-        <div class="head__boton">
-            <a class="head__boton-texto" href="#">Email</a>
-        </div>
-    </header>
-    <main>
 
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>{ ID }</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">HOME</a></li>
+                            <li><a href="#sobremi">ABOUT</a></li>
+                            <li><a href="#servicios">SERVICES</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#contacto">CONTACT</a></li>
+                        </ul>
+                    </nav>
 
-        <div class="sobre container">
-            <div class="sobre__items">
-                <h2 class="sobre__titulo">Hola, soy Nacho.<br>FullStack Developer</h2>
-                <p class="sobre__texto">Actualmente me encuentro cursando el segundo año de una Tecnicatura Superior en Desarrollo de Software y tambien soy participante del programa Oracle Next Education orientado a programacion FullStack</p>
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Welcome</p>
+                <h2>Hello, I am <span>Ignacio Dahuc</span>, Full Stack Developer</h2>
+                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, reprehenderit iste nostrum facere, iusto nemo fugiat vero.</p>
+                <a href="#portfolio">Go to Portfolio</a>
+
             </div>
-            <img class="sobre__foto" src="./img/yo.jpg" alt="yo">
         </div>
-            
-            
-        
-        <div class="habilidades container">
-            <p class="habilidades__titulo">Mis habilidades</p>
-            <p class="habilidades__texto">Poseo conocimientos en HTML, CSS, JavaScript, Python con framework Flask,
-                creacion y manipulación de bases de datos con MySQL y SQLite. </p>
-            <div class="habilidades__caja">
-                <p class="habilidades__subtitulo">HTML, CSS y JavaScript</p>
-                <p class="habilidades__subtexto">Creaciones de paginas web </p>
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">About me</p>
+            <h2>Hello, I am <span>Ignacio Dahuc</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam cum magnam exercitationem adipisci officia, </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, tenetur rerum quo incidunt,</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="servicios">
+
+        <h3 class="titulo-seccion">MY SERVICES</h3>
+
+        <div class="fila">
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Web Sites Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quia recusandae voluptate vero totam assumenda</p>
             </div>
-            <div class="habilidades__caja">
-               <p class="habilidades__subtitulo">Python</p>
-               <p class="habilidades__subtexto">Conocimientos en Python y desarrollo de aplicaciones web con frameworks Flask y Django.</p>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Web Sites Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quia recusandae voluptate vero totam assumenda</p>
             </div>
-            <div class="habilidades__caja">
-               <p class="habilidades__subtitulo">Bases de datos relacionales con MySQL y SQLite</p>
-               <p class="habilidades__subtexto">Creación y manipulación de bases de datos en MySQL y SQLite.</p> 
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Web Sites Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quia recusandae voluptate vero totam assumenda</p>
+            </div>
+
+        </div>
+
+        <div class="fila">
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Web Sites Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quia recusandae voluptate vero totam assumenda</p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Web Sites Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quia recusandae voluptate vero totam assumenda</p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Web Sites Design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quia recusandae voluptate vero totam assumenda</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
             </div>
         </div>
 
-
-        <div class="experiencia container">
-            <h2 class="experiencia__titulo">Mi experiencia</h2>
-            <p>experiencias de trabajos</p>
-            <button>github o contacto</button>
-            
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
         </div>
 
-
-    </main>
-    
-    <footer>
-        <div>
-            
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>SQL Database</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso3"></div>
+            </div>
         </div>
-    </footer>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>PHP</p>
+                <span class="porcentaje">30%</span>
+            </div>
+            <div class="barra">
+                <div id="PHP" class="barra-progreso4"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECCIÓN PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MY PROJECTS</h3>
+    </section>
+
 </body>
+
 </html>
