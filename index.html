@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>{ ID }</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
@@ -19,16 +19,16 @@
                     <h1>{ ID }</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado">HOME</a></li>
-                            <li><a href="#sobremi">ABOUT</a></li>
-                            <li><a href="#servicios">SERVICES</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contacto">CONTACT</a></li>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">HOME</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)" >ABOUT</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACT</a></li>
                         </ul>
                     </nav>
 
                     <!-- Iconos del menu responsive -->
-                    <div id="icono-nav">
+                    <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
@@ -191,7 +191,7 @@
                 <span class="porcentaje">30%</span>
             </div>
             <div class="barra">
-                <div id="PHP" class="barra-progreso4"></div>
+                <div id="php" class="barra-progreso4"></div>
             </div>
         </div>
 
@@ -300,7 +300,36 @@
 
 
     <!-- SECCIÓN CONTACTO -->
-    <section id="contacto"></section>
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contact me</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Name" class="input-mitad">
+                    <input type="text" placeholder="E-Mail" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema.." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCIÓN FOOTER -->
+    <footer>
+        <p>All Rights Reserved - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
 
 </body>
 
