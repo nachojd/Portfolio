@@ -284,7 +284,7 @@ width: 100%;
 /*Footer para todas las paginas*/
 footer {
     text-align: center;
-    background-image: url(/imagenes/bg.jpg); /*colocamos una imagen como fondo*/
+    background-image: url(/proyectos/gentle-hair/imagenes/bg.jpg); /*colocamos una imagen como fondo*/
     padding: 40px;
   }
   
