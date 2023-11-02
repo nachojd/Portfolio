@@ -176,7 +176,7 @@ html{
 }
 
 #sobremi .sobremi h2 span{
-    color: #fff109;
+    color: #000000;
 }
 
 #sobremi .sobremi h3{
@@ -318,7 +318,7 @@ html{
     margin: 10px 0;
 }
 
-/* Este estilo se aplicará luego mediante JavaScript para lograr la animación de la barra */
+
 
 .contenedor-skills .skill .barra .barra-progreso1{
     background-color: #fff;
